@@ -98,4 +98,4 @@ jobs:
           set -x
           rspamd --version
           # Configuration test against the packaged default /etc/rspamd config.
-          rspamd -t
+          rspamadm configtest
